@@ -3,11 +3,17 @@
 int numA = new Random().Next(1, 10);
 int numB = new Random().Next(1, 10);
 Console.WriteLine($"Ввод чисел: A - {numA}, B - {numB}");
-int result = 1;
+Step(numA, numB);
 
-for (int i = 1; i <= numB; i++)
+void Step(int numA, int numB)
 {
-    result = result * numA;
+    int result = 1;
+    for (int i = 1; i <= numB; i++)
+    {
+        result = result * numA;
+    }
+
+    Console.WriteLine($"Результат возведения числа {numA} в степень {numB} равен {result}");
 }
 
-Console.WriteLine($"Результат возведения числа {numA} в степень {numB} равен {result}");
+
