@@ -1,6 +1,6 @@
 ﻿// Напишите программу, которая принимает на вход число и выдаёт сумму цифр в этом числе.
 
-int numberN = new Random().Next(1,10000);
+int numberN = new Random().Next(1, 10000);
 Console.WriteLine($"Ввод числа {numberN}");
 int sum = 0;
 int digit = 0;
