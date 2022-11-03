@@ -16,4 +16,3 @@ void SumDigit(int numberN)
     }
     Console.WriteLine($"Сумма цифр в числе равна {sum}");
 }
-
